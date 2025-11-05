@@ -1,7 +1,7 @@
 import torch
 from torch import nn
 
-if __name__ == "__main__"
+if __name__ == "__main__":
     my_tensor = torch.ones(16,3,256,256)
     print(f"out1 : {my_tensor.shape}")
 
