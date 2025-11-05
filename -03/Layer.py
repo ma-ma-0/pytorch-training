@@ -2,7 +2,7 @@ import torch
 from torch import nn
 
 if __name__ == "__main__":
-    my_tensor = torch.ones(16,3,256,256)
+    my_tensor = torch.ones(16,3,128,128)
     print(f"out1 : {my_tensor.shape}")
 
     conv2 = nn.Conv2d(in_channels=3, out_channels=64, kernel_size=3, padding=0, stride=1)
